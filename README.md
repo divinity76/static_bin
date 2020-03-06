@@ -9,7 +9,7 @@ staticmysqldump  Ver 10.17 Distrib 10.5.2-MariaDB, for Linux (x86_64)
 created with static libopenssl 1.1.1d from the instructions at https://stackoverflow.com/a/56394968/1067003
 
 don't remember exactly how i made it, but roughly:
-
+```sh
 mkdir build
 cd build
 export CFLAGS='-static'
@@ -18,5 +18,5 @@ export LDFLAGS='-static'
 cmake .. -Dwith-ssl=system -Dopenssl-dir=static_openssl_1.1.1d_path
 cd client
 make -j $(nproc)
-
+```
 (not exactly that, but something close to that)
