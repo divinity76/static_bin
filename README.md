@@ -1,4 +1,4 @@
-# static_mysqldump
+# staticmysqldump
 static linux mysqldump binary
 
 from mariadb mysqldump revision f1e13fdc8d9e78f4529aa60b6a9b49c6ff063c66 : https://github.com/MariaDB/server/blob/f1e13fdc8d9e78f4529aa60b6a9b49c6ff063c66/client/mysqldump.c
